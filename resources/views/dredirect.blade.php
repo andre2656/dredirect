@@ -18,16 +18,118 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
-            .container{
-                width: 100%;
-                
-                background-color: black
+            p{
+                color: white;
             }
+            .mainContainer{
+                width: 100%;
+                position: absolute;
+                top: 0; 
+                bottom: 0;
+                background-color: #EBEBE8
+            }
+            .navContainer{
+                width: 100%;
+                position: absolute;
+                top: 0; 
+                height: 50px;
+                background-color: #31352E
+            }
+            .navRow{
+                 width: 100%;
+                 height: 50px;
+                 display: flex
+            }
+            .title{
+                 color: white;
+                 font-size: 30px;
+                 margin-top: 0px;
+                 width: 20%;
+                 text-align: center;
+                 height: 50px
+            }
+            .filll{
+                width: 40%;
+                height: 10px;
+            }
+            .pageLinks{ 
+                width:39%;
+
+            }
+            .space{
+                width: 40%;
+                position: absolute;
+                right:0;
+                height: 50px
+            }
+
+            .dropbtn {
+            background-color: #31352E;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            }
+            .dropdown {
+            position: relative;
+            display: inline-block;
+            }
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #C8F4F9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            opacity: .5
+            }
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            }
+            .dropdown-content a:hover {background-color: #fff;}
+            .dropdown:hover .dropdown-content {display: block;}
+            .dropdown:hover .dropbtn {background-color: #3e8e41;}
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #31352E; color: #4E8B9D;}
+            
+
         </style>
+
+
     </head>
     <body class="antialiased">
-        <div class="container">
-            <p>Hello</p>
+        <div class="mainContainer">
+            <div class="navContainer">
+                <div class="navRow">
+                    <div class="pageLinks">
+                        <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div></div>
+                    <p class="title">Dre Direct</p>
+                    <div class="Space"></div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
