@@ -61,14 +61,10 @@
                 height: 10px;
             }
             .pageLinks{ 
-                width:39%;
+                width:22%;
 
             }
             .space{
-                width: 40%;
-                position: absolute;
-                right:0;
-                height: 50px
             }
 
             .dropbtn {
@@ -123,22 +119,57 @@
 
     </head>
     <body class="antialiased">
+
         <div class="mainContainer">
             <div class="navContainer">
                 <div class="navRow">
                     <div class="pageLinks">
+
                         <div class="dropdown">
-  <button class="dropbtn">My Opinion</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div></div>
-                    <p class="title">Dre Direct</p>
-                    <div class="Space"></div>
+                            <button class="dropbtn">My Opinion</button>
+                            <div class="dropdown-content">
+                                <a href="#">Music</a>
+                                <a href="#">Movies</a>
+                                <a href="#">Books</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">My Opinion</button>
+                            <div class="dropdown-content">
+                                <a href="#">Music</a>
+                                <a href="#">Movies</a>
+                                <a href="#">Books</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">My Opinion</button>
+                            <div class="dropdown-content">
+                                <a href="#">Music</a>
+                                <a href="#">Movies</a>
+                                <a href="#">Books</a>
+                            </div>
+                        </div>
+
+                        <div class="link">
+                            <a href="#"></a>
+                        </div>
+
+
+
+
+
+
+                        
+                    </div>
+                    <div class= "pageTitle">
+                        <p class="title">Dre Direct</p>
+                    </div>
+                    <div class="Space">
+
+                    </div>
                 </div>
             </div>
         </div>
+
     </body>
 </html>
