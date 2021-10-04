@@ -30,8 +30,7 @@
             }
             input{
                 background-color: transparent;
-                border: 1px solid #D1E2C4;
-                height: 25px
+                
             }
             .mainContainer{
                 width: 100%;
@@ -41,14 +40,17 @@
                 background-color: #EBEBE8
             }
             .navContainer{
-                width: 100%;
-                position: absolute;
-                top: 0; 
-                height: 50px;
-                background-color: #31352E
+               
+               
             }
             .navRow{
-                 width: 100%;
+                 position: absolute;
+                top: 0; 
+                left: 0px;
+                right: 0px;
+                height: 50px;
+                background-color: #31352E;
+                min-width: 100%;
                  height: 50px;
                  display: flex
             }
@@ -66,10 +68,6 @@
                  text-align: center;
                 
             }
-            .filll{
-                width: 40%;
-                height: 10px;
-            }
             .pageLinks{ 
                width: 40%
 
@@ -78,16 +76,40 @@
                  position: relative;
             display: inline-block;
             }
-            .space{
-                width:40%
-            }
+        
             .loginImg{
                 height: 45px;
                 width: 45px;
                 padding: 5px;
+                
             }
             .loginButton{
                 background-color: #31352E;
+                 float: right;
+                width: 30%;
+            }
+            .username{
+                float: left;
+                width: 33%;
+                border: 1px solid #D1E2C4;
+                margin-bottom: 10px;
+                padding:2px;
+                border-radius: 25px;
+                margin-top: 3px
+            }
+            .password{
+                 float: right;
+                width: 33%;
+                border: 1px solid #D1E2C4;
+                margin-bottom: 10px;
+                padding:2px;
+                border-radius: 25px;
+                margin-top: 25px
+            }
+            .login{
+            width: 40%;
+            height:50px;
+           
             }
 
 
@@ -145,7 +167,7 @@
     <body class="antialiased">
 
         <div class="mainContainer">
-            <div class="navContainer">
+           
                 <div class="navRow">
                     
                     <div class="pageLinks">
@@ -188,14 +210,14 @@
                         <p class="title">Dre Direct</p>
                     </div>
                     <div class="Login">
-                        <input class="username"></input>
-                        <input class="password"></input>
+                        <input class="username" type="username" id="username" name="username" placeholder="HACK"></input>
+                        <input class="password" type="password" id="password" name="password" placeholder="ME!"></input>
                          <button class="loginButton">
                            <img class="loginImg" src="{{url('/images/middleImg.png')}}" alt="Image"/>
                          </button>
                     </div>
                 </div>
-            </div>
+           
         </div>
 
     </body>
