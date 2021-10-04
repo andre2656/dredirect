@@ -44,25 +44,34 @@
             }
             .navRow{
                  width: 100%;
-                 height: 50px;1
+                 height: 50px;
                  display: flex
+            }
+            .pageTitle{
+                width: 20%;
+                display: block;
+                height: 50px;
             }
             .title{
                  font-family: 'Charmonman', cursive;
                  color: #D1E2C4;
                  font-size: 30px;
-                 margin-top: 10px;
-                 width: 20%;
+                   margin-top: 5px;
+                 
                  text-align: center;
-                 height: 50px;
+                
             }
             .filll{
                 width: 40%;
                 height: 10px;
             }
             .pageLinks{ 
-                width:22%;
+               width: 40%
 
+            }
+            .link{
+                 position: relative;
+            display: inline-block;
             }
             .space{
             }
@@ -123,10 +132,11 @@
         <div class="mainContainer">
             <div class="navContainer">
                 <div class="navRow">
+                    
                     <div class="pageLinks">
 
                         <div class="dropdown">
-                            <button class="dropbtn">My Opinion</button>
+                            <button class="dropbtn">The Vision</button>
                             <div class="dropdown-content">
                                 <a href="#">Music</a>
                                 <a href="#">Movies</a>
@@ -141,17 +151,22 @@
                                 <a href="#">Books</a>
                             </div>
                         </div>
+                      
                         <div class="dropdown">
-                            <button class="dropbtn">My Opinion</button>
+                            <button class="dropbtn">The Athletic</button>
                             <div class="dropdown-content">
                                 <a href="#">Music</a>
                                 <a href="#">Movies</a>
                                 <a href="#">Books</a>
                             </div>
                         </div>
-
-                        <div class="link">
-                            <a href="#"></a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Profile</button>
+                            <div class="dropdown-content">
+                                <a href="#">Music</a>
+                                <a href="#">Movies</a>
+                                <a href="#">Books</a>
+                            </div>
                         </div>
 
 
