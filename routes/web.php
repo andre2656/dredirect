@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/ble', function () {
+Route::get('/app', function () {
     return view('dredirect');
 });
