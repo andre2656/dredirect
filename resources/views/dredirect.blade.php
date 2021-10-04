@@ -28,6 +28,11 @@
             p{
                 color: white;
             }
+            input{
+                background-color: transparent;
+                border: 1px solid #D1E2C4;
+                height: 25px
+            }
             .mainContainer{
                 width: 100%;
                 position: absolute;
@@ -74,7 +79,17 @@
             display: inline-block;
             }
             .space{
+                width:40%
             }
+            .loginImg{
+                height: 45px;
+                width: 45px;
+                padding: 5px;
+            }
+            .loginButton{
+                background-color: #31352E;
+            }
+
 
             .dropbtn {
                  font-family: 'Roboto', sans-serif;
@@ -113,14 +128,14 @@
             display: block;
             }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #fff; }
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {background-color: #fff; }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #31352E; color: #4E8B9D;}
+            /* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn {background-color: #31352E; color: #4E8B9D;}
             
 
         </style>
@@ -168,19 +183,16 @@
                                 <a href="#">Books</a>
                             </div>
                         </div>
-
-
-
-
-
-
-                        
                     </div>
                     <div class= "pageTitle">
                         <p class="title">Dre Direct</p>
                     </div>
-                    <div class="Space">
-
+                    <div class="Login">
+                        <input class="username"></input>
+                        <input class="password"></input>
+                         <button class="loginButton">
+                           <img class="loginImg" src="{{url('/images/middleImg.png')}}" alt="Image"/>
+                         </button>
                     </div>
                 </div>
             </div>
