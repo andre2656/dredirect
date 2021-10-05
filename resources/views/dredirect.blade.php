@@ -227,7 +227,7 @@
                         <p class="title">Dre Direct</p>
                     </div>
                     <div class="login">
-                        <input class="username" type="username" id="username" name="username" placeholder="ME!"></input>
+                        <input class="username" type="password" id="username" name="username" placeholder="ME!"></input>
                         <button class="loginButton">
                            <img class="loginImg" src="{{url('/images/middleImg.png')}}" alt="Image"/>
                          </button>
