@@ -180,9 +180,11 @@
                         <div class="dropdown">
                             <button class="dropbtn">The Vision</button>
                             <div class="dropdown-content">
-                                <a href="#"></a>
-                                <a href="#">Movies</a>
-                                <a href="#">Books</a>
+                                <a href="#">Vogue</a>
+                                <a href="#">Kicks</a>
+                                <a href="#">Icons</a>
+                                <a href="#">Brand Watch</a>
+                                <a href="#">Dre's Style Picks</a>
                             </div>
                         </div>
                         <div class="dropdown">
@@ -191,23 +193,33 @@
                                 <a href="#">Music</a>
                                 <a href="#">Movies</a>
                                 <a href="#">Books</a>
+                                <a href="#">Life</a>
+                                <a href="#">Buisnesses</a>
+                                <a href="#">Dre's Human Highlights</a>
                             </div>
                         </div>
                       
                         <div class="dropdown">
                             <button class="dropbtn">The Athletic</button>
                             <div class="dropdown-content">
-                                <a href="#">Music</a>
-                                <a href="#">Movies</a>
-                                <a href="#">Books</a>
+                                <a href="#">Live Scores</a>
+                                <a href="#">Mr. Bets</a>
+                                <a href="#">My Picks</a>
+                                <a href="#">My Teams</a>
+                                <a href="#">Football</a>
+                                <a href="#">Basketball</a>
+                                <a href="#">Baseball</a>
+                                <a href="#">Soccer</a>
                             </div>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">Profile</button>
                             <div class="dropdown-content">
-                                <a href="#">Music</a>
-                                <a href="#">Movies</a>
-                                <a href="#">Books</a>
+                                <a href="#">Answer a Question</a>
+                                <a href="#">About Dre</a>
+                                <a href="#">Weekly Update</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Answer a Question</a>
                             </div>
                         </div>
                     </div>
