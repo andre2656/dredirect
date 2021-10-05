@@ -33,10 +33,11 @@
                 
             }
             .mainContainer{
-                width: 100%;
-                position: absolute;
+                
+                /* position: absolute;
                 top: 0; 
-                bottom: 0;
+                bottom: 0; */
+
                 background-color: #EBEBE8
             }
             .navContainer{
@@ -69,7 +70,8 @@
                 
             }
             .pageLinks{ 
-               width: 40%
+               width: 40%;
+               height: 50px
 
             }
             .link{
@@ -86,11 +88,11 @@
             .loginButton{
                 background-color: #31352E;
                  float: right;
-                width: 30%;
+                width: 20%;
             }
             .username{
-                float: left;
-                width: 33%;
+                float: right;
+                width: 25%;
                 border: 1px solid #D1E2C4;
                 margin-bottom: 10px;
                 padding:2px;
@@ -99,7 +101,7 @@
             }
             .password{
                  float: right;
-                width: 33%;
+                width: 25%;
                 border: 1px solid #D1E2C4;
                 margin-bottom: 10px;
                 padding:2px;
@@ -109,6 +111,8 @@
             .login{
             width: 40%;
             height:50px;
+            float: right;
+            margin-right: 25px
            
             }
 
@@ -120,6 +124,7 @@
             padding: 16px;
             font-size: 14px;
             border: none;
+       
             }
             .dropdown {
             position: relative;
@@ -175,7 +180,7 @@
                         <div class="dropdown">
                             <button class="dropbtn">The Vision</button>
                             <div class="dropdown-content">
-                                <a href="#">Music</a>
+                                <a href="#"></a>
                                 <a href="#">Movies</a>
                                 <a href="#">Books</a>
                             </div>
@@ -209,12 +214,13 @@
                     <div class= "pageTitle">
                         <p class="title">Dre Direct</p>
                     </div>
-                    <div class="Login">
-                        <input class="username" type="username" id="username" name="username" placeholder="HACK"></input>
-                        <input class="password" type="password" id="password" name="password" placeholder="ME!"></input>
-                         <button class="loginButton">
+                    <div class="login">
+                        <input class="username" type="username" id="username" name="username" placeholder="ME!"></input>
+                        <button class="loginButton">
                            <img class="loginImg" src="{{url('/images/middleImg.png')}}" alt="Image"/>
                          </button>
+                        <input class="password" type="password" id="password" name="password" placeholder="HACK"></input>
+                         
                     </div>
                 </div>
            
